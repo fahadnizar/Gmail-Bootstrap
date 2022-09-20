@@ -9,6 +9,7 @@ body {
 .Icons {
   width: 34px;
   padding: 6px;
+  cursor:pointer;
 }
 
 .gIcon {
