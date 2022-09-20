@@ -2,6 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+
+	overflow-y: hidden;
+
+}
 
 .Icons {
 	width: 34px;
@@ -19,43 +24,27 @@
 .imgfont {
 	cursor: pointer;
 	font-size: x-large;
-	font-weight: 300;
-
+	font-weight: 400;
+	margin-top: 8px;
 
 }
 
-.header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	border-bottom: 1px solid whitesmoke;
-}
 
 .headerleft {
 	display: flex;
-	align-items: center;
-
 }
 
 
-.headerleft span {
-	padding: 10px;
-	cursor: pointer;
-}
 
 .headermiddle {
 	display: flex;
 	flex: 0.7;
 	align-items: center;
 	background-color: whitesmoke;
-	padding: 0px;
 	border-radius: 5px;
 	margin-left: 101px;
 }
 
-.Icons {
-	color: gray;
-}
 
 .headermiddle input {
 	border: none;
@@ -68,15 +57,10 @@
 
 .headerright {
 	display: flex;
-	padding-right: 0px;
 	margin-left: auto;
 
 }
 
-.headerright span {
-	padding: 10px;
-	cursor: pointer;
-}
 
 /* SIDE BODY */
 
@@ -109,14 +93,14 @@
 	display: flex;
 	align-items: 40px;
 	padding: 0 10px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
+	width: 200px;
+	border-top-right-radius: 15px;
+    	border-bottom-right-radius: 15px;
 	cursor: pointer;
 	color: rgb(77, 75, 75);
 }
 
 .sidebodyopt h3 {
-	flex: 1;
 	margin-top: 11px;
 	margin-left: 10px;
 	font-size: 14px;
@@ -142,47 +126,11 @@
 	color: rgb(90, 86, 86);
 }
 
-/* bigbody */
-.bigbody {
-	display: flex;
 
-}
 
-body {
-
-	overflow-y: hidden;
-
-}
 
 
 /* listsetting */
-
-
-.listhead {
-	flex: 1;
-	overflow: scroll;
-}
-
-.listsetting {
-	top: 0;
-	display: flex;
-	justify-content: space-between;
-	border-bottom: 1px whitesmoke;
-	background-color: white;
-	z-index: 999;
-	padding: 8px;
-}
-
-.listsettingleft {
-	display: flex;
-	align-items: center;
-
-}
-
-.listsetting .Icons {
-	margin: 5px;
-	cursor: pointer;
-}
 
 .section {
 	display: flex;
@@ -195,14 +143,6 @@ body {
 	border-width: 0;
 }
 
-.listsection {
-
-	top: 0;
-	display: flex;
-	background-color: white;
-	border-bottom: 1px solid whitesmoke;
-	z-index: 999;
-}
 
 .section__selected {
 	background-color: whitesmoke;
@@ -226,22 +166,10 @@ body {
 .section h4 {
 	font-size: 14px;
 	margin-left: 15px;
-}
-
-.emailRow__options {
-	display: flex;
-	align-items: center;
-
-}
-
-.emailRow__options .Icons,
-input {
-	margin: 5px;
-
+	margin-top: auto;
 }
 
 .emailrow {
-	display: flex;
 	align-items: center;
 	padding: 5px;
 	border-bottom: 1px solid whitesmoke;
@@ -268,6 +196,7 @@ input {
 	text-overflow: ellipsis;
 	padding-left: 5px;
 	padding-right: 5px;
+	font-size: inherit;
 
 }
 
@@ -278,18 +207,15 @@ input {
 }
 
 .emailrowtime {
-	padding-right: 15px;
+	padding-right: 78px;
 	font-size: 10px;
 	font-weight: bold;
+	margin-left:64px;
 
 }
 
 .emailrowdescription {
 	font-weight: 400;
 	color: grey;
-}
-
-.emaillist {
-	cursor: pointer;
 }
 
