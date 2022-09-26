@@ -9,7 +9,7 @@ body {
 .Icons {
   width: 34px;
   padding: 6px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .gIcon {
@@ -80,7 +80,6 @@ body {
 
 .sidebodyopt {
   display: flex;
-  align-items: 40px;
   padding: 0 10px;
   width: 200px;
   border-top-right-radius: 15px;
