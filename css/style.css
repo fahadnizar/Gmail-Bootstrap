@@ -182,10 +182,10 @@ body {
 }
 
 .emailrowtime {
-  padding-right: 78px;
+   /*padding-right: 78px; */
   font-size: 10px;
   font-weight: bold;
-  margin-left: 80px;
+    /* margin-left: 80px;  */
 }
 
 .emailrowdescription {
